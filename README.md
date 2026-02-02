@@ -1,38 +1,42 @@
 # sales_dwh_sql_project
 
-Willkommen zum "sales_dwh_sql_project". 
+Dieses Repository dokumentiert den Aufbau eines **Sales Data Warehouse** mit **PostgreSQL**, inklusive **ETL-Pipelines**, **Datenmodellierung** und **analytischen Schichten** nach der **Medallion Architecture** (Bronze / Silver / Gold).
 
-Dieses Projekt zeigt den Aufbau eines Sales Data Warehouse mit PostgreSQL, inklusive ETL-Prozessen, Datenmodellierung und Analyse-Layern nach der Medallion Architecture (Bronze / Silver / Gold).
-
-Die verwendeten Rohdaten stammen aus einem öffentlich verfügbaren CRM-Sales-Dataset von Kaggle:
+Die verwendeten Rohdaten stammen aus einem öffentlich verfügbaren CRM-Sales-Dataset von Kaggle:  
 https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities
 
-Ziele des Projekts: 
+---
+## Zweck
 
-Laden von Rohdaten in ein relationales DWH
+Dieses Projekt dient als Praxis-Projekt zur Übung von DWH-Design, ETL-Entwicklung und BI-Analyse anhand eines realistischen CRM-Datensatzes.
 
-Transformation und Bereinigung der Daten
+---
 
-Aufbau von Dimensionen und Faktentabellen
+## Projektziele
 
-Umsetzung analytischer Modelle für Reporting
+- Laden von Rohdaten in ein relationales Data Warehouse  
+- Transformation und Bereinigung der Daten  
+- Aufbau von Dimensionen und Faktentabellen  
+- Entwicklung analytischer Modelle für Reporting  
+- Umsetzung moderner DWH-Best-Practices  
 
-Demonstration moderner DWH-Best Practices
+---
 
-Verwendete Technologien:
+## Technologien
 
-PostgreSQL
+- PostgreSQL  
+- SQL  
+- Python (ETL)  
+- Tableau  
+- GitHub  
 
-SQL
+---
 
-Tableau für Daten-Visualisierung
+## Architektur
 
-GitHub für Versionierung
+Das Projekt folgt einer mehrschichtigen DWH-Struktur:
 
-Architektur:
+- **Bronze:** Rohdaten aus den Quellsystemen  
+- **Silver:** bereinigte und integrierte Tabellen  
+- **Gold:** Business-Metriken und Analysemodelle  
 
-Bronze: Rohdaten
-
-Silver: bereinigte und integrierte Tabellen
-
-Gold: Business-KPIs und Analysemodelle

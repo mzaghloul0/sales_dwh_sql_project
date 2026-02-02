@@ -1,3 +1,5 @@
+-- table for ETL-Log
+
 DROP TABLE IF EXISTS etl.etl_run_log;
 CREATE TABLE etl.etl_run_log (
   run_id      SERIAL PRIMARY KEY,

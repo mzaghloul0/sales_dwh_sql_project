@@ -26,7 +26,6 @@ Dieses Projekt dient als Praxis-Projekt zur Übung von DWH-Design, ETL-Entwicklu
 
 - PostgreSQL  
 - SQL  
-- Python (ETL)  
 - Tableau  
 - GitHub  
 

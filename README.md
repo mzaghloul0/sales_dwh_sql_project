@@ -1,6 +1,6 @@
 # sales_dwh_sql_project
 
-Dieses Repository dokumentiert den Aufbau eines **Sales Data Warehouse** mit **PostgreSQL**, inklusive **ETL-Prozess**, **Datenmodellierung** und **analytischen Schichten** nach der **Medallion Architecture** (Bronze / Silver / Gold).
+Dieses Repository dokumentiert den Aufbau eines Sales Data Warehouse mit PostgreSQL, inklusive ETL-Prozess, Datenmodellierung und analytischen Schichten nach der Medallion Architecture (Bronze / Silver / Gold).
 
 Die verwendeten Rohdaten stammen aus einem öffentlich verfügbaren CRM-Sales-Dataset von Kaggle:  
 https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities

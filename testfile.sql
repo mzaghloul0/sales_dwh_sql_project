@@ -35,4 +35,4 @@ create table silver.crm_sales_pipeline_info (
     close_value NUMERIC(12,2)
 );
 
-
+-- das hier ist eine Testdatei. 
